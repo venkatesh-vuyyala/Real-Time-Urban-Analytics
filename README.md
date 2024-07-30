@@ -105,9 +105,9 @@ cd Real-Time-Urban-Analytics
 pip install -r requirements.txt
 
 
-## Usage
+#Usage
 
-Run the data simulation:
-```sh
+#Run the data simulation:
+
 python main.py
 
