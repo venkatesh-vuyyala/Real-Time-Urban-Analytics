@@ -2,20 +2,6 @@
 
 This Respository encompass a smart city real-time data pipeline that integrates diverse data sources, including vehicle information, camera feeds, weather updates, emergency alerts, and GPS data. Using Apache Kafka for data ingestion and Apache Spark for real-time processing, the system operates within a Docker containerized environment. The processed data is stored in Amazon S3 in raw and transformed formats, with AWS Glue handling data cataloging and transformation. For analytics and visualization, the data is loaded into Amazon Redshift and can be accessed through Power BI, Tableau, and Looker. AWS IAM is implemented to ensure secure access management.
 
-## Table of Contents
-
-- Introduction
-- Technologies Used
-- Data Simulation and Generation
-- Data Ingestion and Streaming
-- Data Processing and Transformation
-- Data Storage
-- Data Cataloging and Analysis
-- Visualization and Reporting
-- Simulation and Validation
-- Installation and Setup
-- Usage
-
 ## Introduction
 The project integrates multiple data sources, including Vehicle Information, GPS data for route information, weather data, Emergency Information, to Mimic real-world urban scenarios.
 
