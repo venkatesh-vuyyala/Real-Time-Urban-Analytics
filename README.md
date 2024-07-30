@@ -99,7 +99,7 @@ Amazon Redshift.
 
 ## Installation
 Clone the repository and install the required Python packages:
-
+'''sh
 git clone https://github.com/venkatesh-vuyyala/Real-Time-Urban-Analytics.git
 cd Real-Time-Urban-Analytics
 pip install -r requirements.txt
@@ -107,5 +107,6 @@ pip install -r requirements.txt
 ## Usage
 
 Run the data simulation:
+'''sh
 python main.py
 
